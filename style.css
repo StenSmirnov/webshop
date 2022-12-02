@@ -147,3 +147,21 @@ button:hover{
     color: #fff;
     text-decoration: none;
 }
+.content1{
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content1 h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: #fff;
+}
+.content1 p{
+    margin: 40px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
