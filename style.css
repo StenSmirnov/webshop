@@ -205,3 +205,39 @@ button:hover{
 .shopnavbar ul li:hover::after{
     width: 100%;
 }
+.contentshopinginfo{
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.contentshopinginfo h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: #fff;
+}
+.contentshopinginfo p{
+    margin: 40px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.contentcontact{
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.contentcontact h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: #fff;
+}
+.contentcontact p{
+    margin: 40px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
