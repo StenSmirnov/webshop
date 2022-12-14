@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shopbanner">
+        <div class="shopnavbar">
+            <img src="blacklogo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="shopingcart.html">Shoping Cart</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <section id="cart-container" class="container">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                        <td><img src="mustang.jpg" alt=""></td>
+                        <td><h5>Shelby Mustang G.T 500</h5></td>
+                        <td><h5>€54.99</h5></td>
+                        <td><input class="w-25 pl-1" value="1" type="number"></td>
+                        <td><h5>€54.99</h5></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                        <td><img src="bmw.jpg" alt=""></td>
+                        <td><h5>BMW E36 Coupe M3 GT</h5></td>
+                        <td><h5>€49.99</h5></td>
+                        <td><input class="w-25 pl-1" value="1" type="number"></td>
+                        <td><h5>€54.99</h5></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                        <td><img src="camaro.jpg" alt=""></td>
+                        <td><h5>Chevrolet Camaros SS/RS</h5></td>
+                        <td><h5>€54.99</h5></td>
+                        <td><input class="w-25 pl-1" value="1" type="number"></td>
+                        <td><h5>€69.99</h5></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-bottom" class="container">
+            <div class="row">
+                <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+                    <div>
+                        <h5>COUPON</h5>
+                        <p>Enter your coupon code if you have one.</p>
+                        <input type="text" placeholder="Coupon Code">
+                        <button>APPLY COUPON</button>
+                    </div>
+                </div>
+                <div class="total col-lg-6 col-md-6 col-12 mb-4">
+                    <div>
+                        <h5>CART TOTAL
+                        </h5>
+                        <div class="d-flex justify-content-between">
+                            <h6>Subtotal</h6>
+                            <p>€159.97</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h6>Shipping</h6>
+                            <p>€10</p>
+                        </div>
+                        <hr class="second-hr">
+                        <div class="d-flex justify-content-between">
+                            <h6>Total</h6>
+                            <p>€169.97</p>
+                        </div>
+                        <button class="ml-auto">PROCEED TO CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+</body>
+</html>
